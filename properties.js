@@ -7,4 +7,5 @@ var shoppingCart = {
     keyboard: 1
 }
 
+var penCount = shoppingCart.pen;
 console.log(shoppingCart)
