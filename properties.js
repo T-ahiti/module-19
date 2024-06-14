@@ -17,7 +17,7 @@ var penCount2 = shoppingCart['pen']
 // alternative system 2
 var propertyName = 'mouse';
 var propertyValue = shoppingCart[propertyName]
-console.log(propertyValue)
+console.log(propertyName, propertyValue)
 
 
 // shobgula properties/keys er name dibe
@@ -27,3 +27,5 @@ var properties = Object.keys(shoppingCart)
 // shobgula value ke dekhabe
 var propertyValues = Object.values(shoppingCart);
 // console.log(propertyValues);
+
+
