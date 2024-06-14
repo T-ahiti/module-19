@@ -17,3 +17,21 @@ else if (color ==='white'){
 else{
     console.log('you r my black frnd');
 }
+
+// alternative
+switch(color){
+    case 'green':
+        console.log(' you are my green frnd');
+        break;
+    case 'blue':
+        console.log(' you are my blue frnd');
+        break;
+    case 'white':
+        console.log(' you are my white frnd');
+        break;
+    case 'black':
+        console.log(' you are my black frnd');
+        break;    
+    default:
+        console.log(' you are not my frnd');
+}
