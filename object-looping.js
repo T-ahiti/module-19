@@ -22,8 +22,12 @@ for(var i =0; i < keys.length; i++){
 for(var i =0; i < keys.length; i++){
     var propertyName = keys[i]
     var propertyValue = shoppingCart[propertyName]
-    console.log(propertyName, propertyValue)
+    // console.log(propertyName, propertyValue)
 }
 
 
-// easy version
+// easy version, for in 
+for(var propertyName in shoppingCart){
+    const value = shoppingCart[propertyName]
+    console.log(propertyName, value)
+}
