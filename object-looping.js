@@ -11,13 +11,19 @@ var shoppingCart = {
 
 const keys = Object.keys(shoppingCart);
 // const values = Object.values(shoppingCart);
-console.log(keys);
+// console.log(keys);
 
 for(var i =0; i < keys.length; i++){
-    console.log(keys[i]);
+    // console.log(keys[i]);
 }
 
+
+// hard version
 for(var i =0; i < keys.length; i++){
     var propertyName = keys[i]
-    console.log(propertyName)
+    var propertyValue = shoppingCart[propertyName]
+    console.log(propertyName, propertyValue)
 }
+
+
+// easy version
